@@ -6,7 +6,10 @@ import "./index.css";
 // import MyPromises from './functions/MyPromises'
 // import MyPromisesAll from './functions/MyPromisesAll'
 // import MyPromisesRace from "./functions/MyPromisesRace";
-import MyFetchAPIs from "./functions/MyFetchAPIs";
+// import MyFetchAPIs from "./functions/MyFetchAPIs";
+// import MyFetchPost from "./functions/MyFetchPost";
+// import MyFetchPut from "./functions/MyFetchPut";
+import MyFetchBlob from "./functions/MyFetchBlob";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -14,6 +17,9 @@ createRoot(document.getElementById("root")).render(
     {/* <MyFunctions/> */}
     {/* <MyPromises /> */}
     {/* <MyPromisesRace /> */}
-    <MyFetchAPIs />
+    {/* <MyFetchAPIs /> */}
+    {/* <MyFetchPost/> */}
+    {/* <MyFetchPut /> */}
+    <MyFetchBlob />
   </StrictMode>
 );
