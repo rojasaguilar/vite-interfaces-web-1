@@ -9,12 +9,13 @@ import "./index.css";
 // import MyFetchAPIs from "./functions/MyFetchAPIs";
 // import MyFetchPost from "./functions/MyFetchPost";
 // import MyFetchPut from "./functions/MyFetchPut";
-import MyFetchBlob from "./functions/MyFetchBlob";
+// import MyFetchBlob from "./functions/MyFetchBlob";
 // import MyObjects from "./functions/MyObjects";
 // import Contador from "./components/Contador";
 // import ContadorHook from "./components/ContadorHook";
 // import { Login } from "./components/Login";
-import Usuarios from "./components/Usuarios";
+// import Usuarios from "./components/Usuarios";
+import Formularios from "./components/Formularios";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -31,5 +32,6 @@ createRoot(document.getElementById("root")).render(
     {/* <ContadorHook/> */}
     {/* <Login /> */}
     {/* <Usuarios/> */}
+    <Formularios />
   </StrictMode>
 );
